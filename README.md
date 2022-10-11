@@ -7,7 +7,7 @@ Scan an election poster with your phone's camera and instantly get information a
 - Positions regarding recent news topics from BR24.
 - General information about elections and our political system from BR Alpha.
 
-![Testing the app](photos/paul3.JPG width=50% height=50%)
+<img src="photos/paul3.JPG" width=50%/>
 
 ## Technology
 We use Google's AutoML to detect the political party corresponding to the respective poster and achieve an accuracy of 95% with only less than 600 images training data.
