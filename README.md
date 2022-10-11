@@ -1,13 +1,13 @@
-# GoDemocracy (Concept for an 8h hackathon at Google Munich)
+# GoDemocracy (Concept for an 8h Hackathon at Google Munich)
 
 Did you ever pass by an election poster wondering what that party or candidate even stands for? With GoDemocray, you will get the answer!
-
-![Testing the app](photos/paul3.JPG)
 
 Scan an election poster with your phone's camera and instantly get information about the party and candidate. The result includes the following:
 - Political views and values fetched from Wikipedia and the BR Mediathek.
 - Positions regarding recent news topics from BR24.
 - General information about elections and our political system from BR Alpha.
+
+![Testing the app](photos/paul3.JPG width=50% height=50%)
 
 ## Technology
 We use Google's AutoML to detect the political party corresponding to the respective poster and achieve an accuracy of 95% with only less than 600 images training data.
