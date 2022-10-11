@@ -1,19 +1,15 @@
-# GoDemocracy
+# GoDemocracy (Concept for an 8h hackathon at Google Munich)
 
-Did you ever pass by an election poster and ask yourself what that party or candidate even stand for? With **GoDemocracy**, that won't ever happen again!
+Did you ever pass by an election poster wondering what that party or candidate even stands for? With GoDemocray, you will get the answer!
 
 ![Testing the app](photos/paul3.JPG)
 
-
-Simply scan an election poster with you phone's camera and instantly get information about the party and candidate on the poster: Their political views and values (from Wikipedia and BR Mediathek), their positions regarding recent news topics (from BR24) and general information about elections and our political system (from BR Alpha).
-
-![Detailed party information](photos/paul2.JPG)
-
-
-
-This app was built for and presented on the Bayerischer Rundfunk (BR) track at StudySmarter Hackathon in April 2019.
+Scan an election poster with your phone's camera and instantly get information about the party and candidate. The result includes the following:
+- Political views and values fetched from Wikipedia and the BR Mediathek.
+- Positions regarding recent news topics from BR24.
+- General information about elections and our political system from BR Alpha.
 
 ## Technology
-We use Google's AutoML machine learning cloud to recognize an election poster's party. Using less than 600 images of training data for two parties (CSU and Grüne), it was possible to achieve an accuracy of 95%!
+We use Google's AutoML to detect the political party corresponding to the respective poster and achieve an accuracy of 95% with only less than 600 images training data.
 
-After it knows which party the poster belongs to, the app queries Wikipedia for general information about the party (and, possibly, the candidate) and BR's BR24 web API for recent news involving the relevant party and persons. This is combined with information about the general German voting and political system from BR's education channels and then shown beautifully on the iOS app.
+After identifying the party, the app queries Wikipedia for general information and BR's BR24 web API for recent news involving the relevant party and persons. The iOS app then shows the results and adds information about the German voting and political system from BR's education channels.
